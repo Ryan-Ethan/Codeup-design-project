@@ -40,3 +40,20 @@ nav .nav-item {
         top: 5px;
     }
 }
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.circle {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    background: #000
+}
