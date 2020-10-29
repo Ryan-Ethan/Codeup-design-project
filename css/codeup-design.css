@@ -43,24 +43,26 @@ nav .nav-item {
 
 h1{
     text-align: center;
+    font-size: 1.5rem;
 }
 h2{
+    text-align: center;
+}
+h4{
     text-align: center;
 }
 .circle {
     width: 150px;
     height: 150px;
-    line-height: 150px;
+    line-height: 138px;
     border-radius: 50%;
     font-size: 30px;
     color: #FFF;
     background-color: #E6563B;
     text-align: center;
     border: black 4px solid;
+    margin: auto;
 }
 p{
     font-size: 30px;
-}
-.container{
-    background-color: ;
 }
