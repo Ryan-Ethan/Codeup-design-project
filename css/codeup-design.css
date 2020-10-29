@@ -52,8 +52,15 @@ h2{
     height: 150px;
     line-height: 150px;
     border-radius: 50%;
-    font-size: 50px;
-    color: #fff;
+    font-size: 30px;
+    color: #FFF;
+    background-color: #E6563B;
     text-align: center;
-    background: #000
+    border: black 4px solid;
+}
+p{
+    font-size: 30px;
+}
+.container{
+    background-color: ;
 }
