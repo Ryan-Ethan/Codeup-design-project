@@ -55,68 +55,114 @@ h4{
     font-size: 2rem;
     font-family: 'Anton' , sans-serif;
 }
-
+h5{
+    text-align: left;
+    font-size: 2rem;
+}
+h6{
+    text-align: center;
+    font-size: 1em;
+}
 .circle-1{
     width: 160px;
     height: 160px;
-    line-height: 130px;
+    line-height: 150px;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 35px;
+    font-family: 'Anton' , sans-serif;
     color: #FFF;
     background-color: #E6563B;
     text-align: center;
     border: white 4px solid;
-    margin: 50px;
+    margin: 15px;
 }
 .circle-2{
     width: 160px;
     height: 160px;
-    line-height: 130px;
+    line-height: 150px;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 35px;
+    font-family: 'Anton' , sans-serif;
     color: #FFF;
     background-color: #DEA03D;
     text-align: center;
     border: white 4px solid;
-    margin: 50px;
+    margin: 15px;
 }
 .circle-3{
     width: 160px;
     height: 160px;
-    line-height: 130px;
+    line-height: 150px;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 35px;
+    font-family: 'Anton' , sans-serif;
     color: #FFF;
     background-color: #7CB06C;
     text-align: center;
     border: white 4px solid;
-    margin: 50px;
+    margin: 15px;
 }
 .circle-4{
     width: 160px;
     height: 160px;
-    line-height: 130px;
+    line-height: 150px;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 35px;
+    font-family: 'Anton' , sans-serif;
     color: #FFF;
     background-color: #00ABA9;
     text-align: center;
     border: white 4px solid;
-    margin: 50px;
+    margin: 15px;
 }
-
+.circle-center{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*@media screen and (max-width: 575px){*/
+/*    hr{*/
+/*        display: none;*/
+/*    }*/
+}
 @media screen and (min-width: 576px){
-    .circle-1{
-
+    .circle-row{
+        flex-direction: row;
     }
-    .circle-2{
-
+    .card-img-top{
+        width: 100%;
     }
-    .circle-3{
-
+    .card-body{
+        background: #f0f0f0
     }
-    .circle-4{
-
+    .card-title{
+        font-size: 15px;
+    }
+    .card{
+        margin: 15px;
+    }
+    .badge-color1{
+        background-color: #E6563B;
+        color: white;
+    }
+    .badge-color2{
+        background-color: #DEA03D;
+        color: white;
+    }
+    .badge-color3{
+        background-color: #7CB06C;
+        color: white;
+    }
+    .badge-color4{
+        background-color: #00ABA9;
+        color: white;
+    }
+    .badge-pill{
+        border-radius: 1em;
+    }
+    .center{
+        text-align: right;
     }
 }
 .card-img-top{
@@ -127,6 +173,9 @@ h4{
 }
 .card-title{
     font-size: 15px;
+}
+.card{
+    margin: 15px;
 }
 .badge-color1{
     background-color: #E6563B;
