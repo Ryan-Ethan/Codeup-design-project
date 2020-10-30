@@ -43,7 +43,7 @@ nav .nav-item {
 
 h1{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 h2{
     text-align: center;
@@ -52,65 +52,54 @@ h4{
     text-align: center;
     font-size: 15px;
 }
-.circle {
-    width: 100px;
-    height: 100px;
-    line-height: 90px;
-    border-radius: 50%;
-    font-size: 20px;
-    color: #FFF;
-    background-color: #E6563B;
-    text-align: center;
-    border: white 4px solid;
-    margin: auto;
-}
+
 .circle-1{
-    width: 100px;
-    height: 100px;
-    line-height: 90px;
+    width: 160px;
+    height: 160px;
+    line-height: 130px;
     border-radius: 50%;
     font-size: 20px;
     color: #FFF;
     background-color: #E6563B;
     text-align: center;
     border: white 4px solid;
-    margin: auto;
+    margin: 50px;
 }
 .circle-2{
-    width: 100px;
-    height: 100px;
-    line-height: 90px;
+    width: 160px;
+    height: 160px;
+    line-height: 130px;
     border-radius: 50%;
     font-size: 20px;
     color: #FFF;
     background-color: #DEA03D;
     text-align: center;
     border: white 4px solid;
-    margin: auto;
+    margin: 50px;
 }
 .circle-3{
-    width: 100px;
-    height: 100px;
-    line-height: 90px;
+    width: 160px;
+    height: 160px;
+    line-height: 130px;
     border-radius: 50%;
     font-size: 20px;
     color: #FFF;
     background-color: #7CB06C;
     text-align: center;
     border: white 4px solid;
-    margin: auto;
+    margin: 50px;
 }
 .circle-4{
-    width: 100px;
-    height: 100px;
-    line-height: 90px;
+    width: 160px;
+    height: 160px;
+    line-height: 130px;
     border-radius: 50%;
     font-size: 20px;
     color: #FFF;
     background-color: #00ABA9;
     text-align: center;
     border: white 4px solid;
-    margin: auto;
+    margin: 50px;
 }
 .card-img-top{
     width: 100%;
