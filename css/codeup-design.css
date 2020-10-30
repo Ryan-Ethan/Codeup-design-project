@@ -121,27 +121,85 @@ h6{
     align-items: center;
     justify-content: center;
 }
-/*@media screen and (max-width: 575px){*/
-/*    hr{*/
-/*        display: none;*/
-/*    }*/
+@media screen and (max-width: 575px){
+    hr{
+        display: none;
+    }
+    .card2{
+        display: none;
+    }
+    .card3{
+        display: none;
+    }
+    .card4{
+        display: none;
+    }
 }
 @media screen and (min-width: 576px){
+
+    /*.card1{*/
+    /*    width: 270px;*/
+    /*    height: 168px;*/
+    /*    padding: 0;*/
+    /*}*/
+    /*.card2{*/
+    /*    width: 270px;*/
+    /*    height: 168px;*/
+    /*    padding: 0;*/
+    /*}*/
+    /*.card3{*/
+    /*    width: 270px;*/
+    /*    height: 168px;*/
+    /*    padding: 0;*/
+    /*}*/
+    /*.card4{*/
+    /*    width: 270px;*/
+    /*    height: 168px;*/
+    /*    padding: 0;*/
+    /*}*/
+
+    .circle-1 {
+        width: 80px;
+        height: 80px;
+        line-height: 70px;
+        font-size: 15px;
+    }
+    .circle-2 {
+        width: 80px;
+        height: 80px;
+        line-height: 70px;
+        font-size: 15px;
+    }
+    .circle-3 {
+        width: 80px;
+        height: 80px;
+        line-height: 70px;
+        font-size: 15px;
+    }
+    .circle-4 {
+        width: 80px;
+        height: 80px;
+        line-height: 70px;
+        font-size: 15px;
+    }
+    /*.card-img-top{*/
+    /*    width: 270px;*/
+    /*    height: 168px;*/
+    /*}*/
     .circle-row{
         flex-direction: row;
     }
-    .card-img-top{
-        width: 100%;
-    }
     .card-body{
-        background: #f0f0f0
+        background: #f0f0f0;
+        padding: 0;
     }
     .card-title{
         font-size: 15px;
     }
-    .card{
-        margin: 15px;
-    }
+    /*.card{*/
+    /*    width: 270px;*/
+    /*    height: 168px;*/
+    /*}*/
     .badge-color1{
         background-color: #E6563B;
         color: white;
@@ -165,18 +223,16 @@ h6{
         text-align: right;
     }
 }
-.card-img-top{
-    width: 100%;
-}
-.card-body{
-    background: #f0f0f0
-}
-.card-title{
-    font-size: 15px;
-}
-.card{
-    margin: 15px;
-}
+/*.card-body{*/
+/*    background: #f0f0f0;*/
+/*    padding: 10px;*/
+/*}*/
+/*.card-title{*/
+/*    font-size: 15px;*/
+/*}*/
+/*.card{*/
+/*    margin: 15px;*/
+/*}*/
 .badge-color1{
     background-color: #E6563B;
     color: white;
