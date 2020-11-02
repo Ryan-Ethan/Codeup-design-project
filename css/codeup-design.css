@@ -139,8 +139,11 @@ h6{
     .card-title{
         font-size: 1rem;
     }
+    .col-4{
+        display: none;
+    }
 }
-@media screen and (min-width: 576px){
+@media screen and (min-width: 576px ){
 
         /*.card1{*/
         /*    margin: 2em;*/
@@ -156,6 +159,9 @@ h6{
         /*}*/
         /*h1{*/
         /*    font-size: 2rem;*/
+        /*}*/
+        /*.col-md-6{*/
+        /*    display: none;*/
         /*}*/
         h1{
             font-size: 2.9rem;
@@ -219,8 +225,16 @@ h6{
             padding-right: 0;
             padding-left: 0;
         }
-    }
+        .col-4{
+            display: none;
+        }
+}
     /*End SM media querie*/
+@media screen and (min-width: 768px){
+    .col-4{
+        display: contents;
+    }
+}
 
 .badge-color1{
     background-color: #E6563B;
@@ -276,4 +290,11 @@ h6{
 }
 .center{
     text-align: right;
+}
+.img-size{
+/*width: 100%;*/
+height: 4vw;
+object-fit: cover;
+border: 5px solid #e6e6e6;
+    float: left;
 }
